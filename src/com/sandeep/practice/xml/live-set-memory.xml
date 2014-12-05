@@ -1,0 +1,35 @@
+<root>
+    <!-- LIVE SET MEMORY -->
+    <pjd>
+        <job-id>1234</job-id>
+        <transaction>1</transaction>
+        <target-host>pserver123</target-host>
+        <server>
+            <uuid>44449999-3333-0000-0001-000000121239</uuid>
+            <ram-in-mb>1024</ram-in-mb>
+            <memory>
+                <prefix>p1024</prefix>
+                <dimms>255</dimms>
+                <size>1024</size>
+                <activated>15</activated>
+                <!-- total amount of hotpluggable mem -->
+            </memory>
+        </server>
+        <command>live-set-memory</command>
+    </pjd>
+
+
+    <!-- LIVE SET CPU/CORES -->
+    <pjd>
+        <job-id>1234</job-id>
+        <transaction>1</transaction>
+        <target-host>pserver123</target-host>
+        <server>
+            <uuid>44449999-3333-0000-0001-000000121239</uuid>
+            <cpu-units>4</cpu-units>
+            <cpu-set>9,10,11,12</cpu-set>
+        </server>
+        <command>live-set-core</command>
+    </pjd>
+
+</root>

@@ -1,0 +1,24 @@
+<pjd>
+    <job-id>1499</job-id>
+    <transaction>1495</transaction>
+    <storage>
+        <storage_uuid>9919abd1-e2a5-4958-bf0c-90a606366c06</storage_uuid>
+        <pserver_node>32EED232-5B84-11E4-9D5A-3162B2DC71AF</pserver_node>
+        <readonly>no</readonly>
+        <volumes>
+            <volume>
+                <storage_node>42696218-5B84-11E4-9D5A-3162B2DC71AF</storage_node>
+                <storage_guid>600144f0-016d-5ebd-bd4f-6e6611e48b19</storage_guid>
+                <storage_ip>10.12.0.24</storage_ip>
+                <storage_name>storage1102</storage_name>
+            </volume>
+            <volume>
+                <storage_node>422EF402-5B84-11E4-9D5A-3162B2DC71AF</storage_node>
+                <storage_guid>600144f0-016d-5eba-13ce-6e6611e48b19</storage_guid>
+                <storage_ip>10.12.0.24</storage_ip>
+                <storage_name>storage1101</storage_name>
+            </volume>
+        </volumes>
+    </storage>
+    <command>storage-uuid-map</command>
+</pjd>
