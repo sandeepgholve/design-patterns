@@ -1,0 +1,9 @@
+<pjd>
+    <job-id>1496</job-id>
+    <transaction>1495</transaction>
+    <server>
+        <uuid>2d269285-bfe9-4bc5-9b31-0bfcc146adcd</uuid>
+    </server>
+    <command>stop-server</command>
+</pjd>
+

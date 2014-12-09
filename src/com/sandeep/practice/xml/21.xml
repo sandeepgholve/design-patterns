@@ -1,0 +1,12 @@
+<pjd>
+    <job-id>1543</job-id>
+    <transaction>1542</transaction>
+    <server>
+        <uuid>2d269285-bfe9-4bc5-9b31-0bfcc146adcd</uuid>
+        <memory>
+            <prefix>p1024</prefix>
+            <dimms>1</dimms>
+        </memory>
+    </server>
+    <command>live-add-memory</command>
+</pjd>

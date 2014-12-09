@@ -1,0 +1,14 @@
+<pjd>
+    <transaction>1013</transaction>
+    <server>
+        <uuid>8039ef6b-cc4f-4285-8600-7cec77d3fd95</uuid>
+        <ram-in-mb>1024</ram-in-mb>
+        <memory>
+            <prefix>p1024</prefix>
+            <dimms>255</dimms>
+            <size>1024</size>
+            <activated>3</activated>
+        </memory>
+    </server>
+    <command>live-set-memory</command>
+</pjd>

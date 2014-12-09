@@ -1,0 +1,71 @@
+<root>
+    <pjd>
+        <job-id>45875</job-id>
+        <transaction>45874</transaction>
+        <server>
+            <uuid>0bddabc0-9593-4781-88a9-72acb662b0ee</uuid>
+            <memory>
+                <prefix>p1024</prefix>
+                <dimms>2</dimms>
+            </memory>
+        </server>
+        <command>live-add-memory</command>
+    </pjd>
+
+
+    <pjd>
+        <job-id>45876</job-id>
+        <transaction>45874</transaction>
+        <server>
+            <id-virtual-server>0bddabc0-9593-4781-88a9-72acb662b0ee</id-virtual-server>
+            <name>Serverwittchen0bddabc0-9593-4781-88a9-72acb662b0ee</name>
+            <uuid>0bddabc0-9593-4781-88a9-72acb662b0ee</uuid>
+            <vnc-port>5928</vnc-port>
+            <description>Virtual Server: 0bddabc0-9593-4781-88a9-72acb662b0ee</description>
+            <ram-in-mb>1024</ram-in-mb>
+            <memory>
+                <prefix>p1024</prefix>
+                <dimms>255</dimms>
+                <size>1024</size>
+                <activated>4</activated>
+            </memory>
+            <cpu-units>3</cpu-units>
+            <cpu-set>60,61,62</cpu-set>
+            <images>
+            </images>
+            <storage>
+                <filename>uuid://cbad88dd-6607-4ace-83f7-6c54fce5e1db</filename>
+                <bootorder>1</bootorder>
+                <type>ide</type>
+                <bus>0</bus>
+                <unit>0</unit>
+                <storage_uuid>cbad88dd-6607-4ace-83f7-6c54fce5e1db</storage_uuid>
+                <readonly>no</readonly>
+                <volumes>
+                    <volume>
+                        <storage_node>EEA01B96-5065-11E4-9D5A-1925446B7A5D</storage_node>
+                        <storage_guid>600144f0-0090-8826-1c3d-758011e4b9ed</storage_guid>
+                        <storage_ip>10.12.0.24</storage_ip>
+                        <storage_name>storage1109</storage_name>
+                    </volume>
+                    <volume>
+                        <storage_node>EEE72176-5065-11E4-9D5A-1925446B7A5D</storage_node>
+                        <storage_guid>600144f0-0090-8827-2dae-758011e4b9ed</storage_guid>
+                        <storage_ip>10.12.0.24</storage_ip>
+                        <storage_name>storage1110</storage_name>
+                    </volume>
+                </volumes>
+            </storage>
+            <network-interface>
+                <mac>02:01:c5:0b:9a:89</mac>
+                <domain>0</domain>
+                <bus>0</bus>
+                <slot>6</slot>
+            </network-interface>
+            <enable-ballooning>false</enable-ballooning>
+        </server>
+        <command>update-server</command>
+    </pjd>
+
+
+</root>
