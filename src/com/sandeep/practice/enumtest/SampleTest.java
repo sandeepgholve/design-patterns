@@ -11,6 +11,10 @@ public class SampleTest {
         System.out.println("osType1.toString() = " + osType1.toString());
         System.out.println("osType1.name() = " + osType1.name());
         System.out.println("osType1 = " + osType1);
+
+
+        Server server = new Server();
+        System.out.println(server);
     }
 
 }
