@@ -3,10 +3,8 @@ package java8.functional_interfaces;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiConsumer;
+import java.util.function.DoubleConsumer;
 
-/**
- * Created by sgholve on 9/14/15.
- */
 public class BiConsumerTest {
     public static void main(String[] args) {
         Map<Integer, String> map = new HashMap<>();
@@ -16,6 +14,11 @@ public class BiConsumerTest {
 
         BiConsumer<Integer, String> biConsumer = (key, value) -> System.out.println("Key: " + key + ", Value: " + value);
 
+        DoubleConsumer doubleConsumer = val -> System.out.println("Double Consumed Value: " + val);
+
         map.forEach(biConsumer);
+
+        Double d = 2.0;
+        doubleConsumer.accept(d);
     }
 }
