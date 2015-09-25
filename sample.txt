@@ -1,0 +1,9 @@
+Sandeep
+Gholve
+4194300
+0
+1
+4194304
+ACCEPTED
+ACCEPTED
+/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/home/sgholve/Softwares/IDE/idea-14/bin -Dfile.encoding=UTF-8 -classpath /home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/javaws.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/management-agent.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/plugin.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/deploy.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/jfxswt.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/jce.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/resources.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/jsse.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/jfr.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/charsets.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/rt.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/sunpkcs11.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/nashorn.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/zipfs.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/jfxrt.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/sunec.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/sunjce_provider.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/localedata.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/dnsns.jar:/home/sgholve/Softwares/Java/jdk/jdk1.8.0_20/jre/lib/ext/cldrdata.jar:/home/sgholve/Practice/design-patterns/out/production/DesignPatternsPractice:/home/sgholve/Softwares/IDE/idea-14/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain java8.FourMegaByteRoundUp
