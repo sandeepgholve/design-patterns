@@ -12,6 +12,11 @@ public class Dish {
     private final int calories;
     private final Type type;
 
+    public static enum CaloricLevel { DIET, NORMAL, FAT }
+
+    public static
+    enum Type {MEAT, FISH, OTHER}
+
     public Dish(String name, boolean vegetarian, int calories, Type type) {
         this.name = name;
         this.vegetarian = vegetarian;
@@ -40,8 +45,6 @@ public class Dish {
         return name;
     }
 
-    public enum Type {MEAT, FISH, OTHER}
-
     public static List<Dish> getDishMenu() {
         List<Dish> dishList = Arrays.asList(
                 new Dish("pork", false, 800, Dish.Type.MEAT),
@@ -57,3 +60,5 @@ public class Dish {
     }
 
 }
+
+
