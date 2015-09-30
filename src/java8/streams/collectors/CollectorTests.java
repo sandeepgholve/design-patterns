@@ -85,11 +85,13 @@ public class CollectorTests {
         System.out.println("Prime Numbers: " + primeNums.get(true));
         System.out.println("Non Prime Numbers: " + primeNums.get(false));
 
+        System.out.println("Number of Processors: " + Runtime.getRuntime().availableProcessors());
+
     }
 
     public static boolean isPrime(int candidate) {
         int candidateRoot = (int) Math.sqrt((double) candidate);
-        return IntStream.range(2, candidate).noneMatch(i -> candidate % i == 0);
+        return IntStream.range(2, candidateRoot).noneMatch(i -> candidate % i == 0);
     }
 
     public static Map<Boolean, List<Integer>> partitionPrimes(int n) {
