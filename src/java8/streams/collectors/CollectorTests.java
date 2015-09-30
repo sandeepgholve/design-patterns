@@ -7,9 +7,6 @@ import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.*;
 
-/**
- * Created by sgholve on 9/28/15.
- */
 public class CollectorTests {
     public static void main(String[] args) {
         List<Dish> menu = Dish.getDishMenu();
@@ -96,6 +93,6 @@ public class CollectorTests {
 
     public static Map<Boolean, List<Integer>> partitionPrimes(int n) {
         return IntStream.rangeClosed(2, n).boxed()
-                .collect(partitioningBy(candidate -> isPrime(candidate)));
+                .collect(partitioningBy(CollectorTests::isPrime));
     }
 }
