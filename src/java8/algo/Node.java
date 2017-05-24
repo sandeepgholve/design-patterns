@@ -19,6 +19,12 @@ public class Node {
         this.label = label;
     }
 
+    public Node(@NotNull String label) {
+        this.left = null;
+        this.right = null;
+        this.label = label;
+    }
+
     @Override
     public String toString() {
         return label;
@@ -50,14 +56,14 @@ public class Node {
         return visitedNodes;
     }
 
-    public List<Node> searchNyBreadth() {
+    public List<Node> searchByBreadth() {
         List<Node> visitedNodes = new LinkedList<>();
         List<Node> unvisitedNodes = Arrays.asList(this);
 
         while (!unvisitedNodes.isEmpty()) {
             List<Node> newNodes = unvisitedNodes
                     .stream()
-                    .map(node -> node.getChildren()) // Or .map(Node::getChildren)
+                    .map(Node::getChildren) // Or .map(Node::getChildren)
                     .flatMap(List::stream)
                     .filter(node -> !visitedNodes.contains(node))
                     .collect(Collectors.toList());
