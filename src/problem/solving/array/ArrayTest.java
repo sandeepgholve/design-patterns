@@ -1,4 +1,4 @@
-package problem.solving;
+package problem.solving.array;
 
 import java.util.Arrays;
 

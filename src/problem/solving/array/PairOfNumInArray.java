@@ -1,4 +1,4 @@
-package test;
+package problem.solving.array;
 
 import java.util.*;
 
