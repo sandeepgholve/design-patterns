@@ -1,4 +1,4 @@
-package problem.solving.array;
+package problem.solving.array.rotation;
 
 import java.util.Arrays;
 
@@ -36,6 +36,15 @@ public class RotateArray {
     }
 
     private void rotateLeft(int[] inputArray, int count) {
+        int i;
+        int temp = inputArray[0];
+        for (i = 0; i < count - 1; i++) {
+            inputArray[i] = inputArray[i + 1];
+        }
+        inputArray[i] = temp;
+    }
+
+    private void rotateRight(int[] inputArray, int count) {
         int i;
         int temp = inputArray[0];
         for (i = 0; i < count - 1; i++) {
